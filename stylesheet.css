@@ -88,8 +88,8 @@ ol li {font-size: 16px}
 .main_text {font-size: 18px;}
 
 .contacts {display: block; margin-bottom: 60px;}
-.contacts_text {width: 30%; margin-right: 20px; display: inline-block;}
-.contacts_block {margin-bottom: 30px; display: block;}
+.contacts_text {width: 30%; margin-right: 20px; display: inline-block; vertical-align: top;}
+.contacts_block {margin-bottom: 30px; display: block; }
 .map {width: 60%; height: auto; display: inline-block;}
 
 footer {width: 100%; 
