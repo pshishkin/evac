@@ -6,26 +6,26 @@
 html {height: 100%}
 header, section, article, footer {display: block;}
 body {height: 100%; width: 100%; background:  #fefefe;}
-.maxw {margin: auto; min-width: 240px; max-width: 1280px;}
+.maxw {margin: auto; min-width: 850px; max-width: 1100px;}
 #wrapper {position: relative; margin: 0 auto; height: auto !important; height: 100%;}
 
-header {min-width: 480px; width: 100%; height: 100px; margin: 0px 150px 15px 150px; }
+header {min-width: 480px; width: 100%; height: 100px; margin: 0px 100px 0px 100px; }
 
 .section {width: 100%; padding: 0 0 100px; position: relative;}
 .mainwrap {width: 100%; float: left; /*overflow: hidden; */}
-.main {padding: 0 150px 0 150px; min-height: 400px; margin: 0; display: block;}
+.main {padding: 0 100px 0 100px; min-height: 400px; margin: 0; display: block;}
 
 .Header_logo_wrap {display: inline-block;  width: 20%; height: 40px; left: 20px;}
 .logo_background {width: 120px; height: 40px; background-color: #1F5184; padding: 15px;}
 
-.Header_comment { display: inline-block; width: 35%; height: 40px;} 
+.Header_comment { display: inline-block; width: 35%; height: 40px; margin-right: 10px} 
 .Header_phone { display: inline-block; width: 45%; text-align: left; max-width: 180px; height: 40px;}
 
 .Header_phone_ph { display: block; font-size: 18px;}
 .Header_phone_text {font-size: 12px;}
 
 
-.main_photo { display: block; max-height: 400px;}
+.main_photo { display: block; max-height: 750px;}
 
 .photo_1 {width: 56%; height: auto; display: inline-block;}
 .photo_2 {width: 27%; height: auto; display: inline-block; vertical-align: top; padding-left: 1%;}
@@ -34,21 +34,22 @@ header {min-width: 480px; width: 100%; height: 100px; margin: 0px 150px 15px 150
 img {width: 100%; height: auto;}
 
 .main_wrap {display: block; margin-bottom: 60px;}
+.name {width: 85%;}
 .main_text{display: inline-block; width: 50%;}
 .price { font-size: 24px;}
 
 .middle{ width: 8%; display: inline-block;}
 
-.evac_type {display: inline-block; vertical-align: top; margin-right: 50px; margin-bottom: 60px;}
-.evac_img {height: 130px; width: auto; display: inline-block; }
+.evac_type {display: inline-block; vertical-align: top; margin-right: 15px; margin-bottom: 50px; width: 45%}
+.evac_img {display: inline-block; }
 
 
 .characteristic {
-	width: 35%;
+	width: 40%;
 	display: inline-block;
 	vertical-align: top;
-	margin-top: 140px;
-	/* margin-left: 50px; */
+	/*margin-top: 80px;
+	margin-left: 50px; */
 }
 .tip {display: block; padding-bottom: 35px; margin-top: 15px; vertical-align: top;}
 .tip_img {height: auto; width: 100px; display: inline-block; }
@@ -99,11 +100,11 @@ footer {width: 100%;
 		clear:both;
 		background-color: #1F5184}
 
-.footer_content {margin: 0px 150px 0px 150px; color: white; height: 100%}
+.footer_content {margin: 0px 100px 0px 100px; color: white; height: 100%}
 
-.footer_comment {display: inline-block; width: 30%; height: auto; font-size: 11px; padding-top: 20px;}
-.footer_phone_ph {display: inline-block; font-size: 16px; width: 20%; height: auto; padding-top: 28px; vertical-align: top; }
-.footer_phone_text {display: inline-block; width: 20%; font-size: 12px; height: auto; padding-top: 28px; vertical-align: top;}
+.footer_comment {display: inline-block; width: 40%; height: auto; padding-top: 20px;}
+.footer_comment span { font-size: 12px; }
+.footer_phone_ph {display: inline-block; width: 30%; height: auto; padding-top: 28px; vertical-align: top; }
 
 
 
